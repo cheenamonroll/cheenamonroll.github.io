@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.stardew {
+    border-radius: 20px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+    width: 15%; 
+    height: auto;
+    max-width: 100%; 
+}
+
+.stardew:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 100%; 
+}

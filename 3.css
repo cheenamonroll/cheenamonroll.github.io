@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    flex-direction: column;
+}
+
+.heading {
+    display: block;
+    font-size: 25px;
+}
+
+.parenthesis {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+}
